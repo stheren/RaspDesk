@@ -8,8 +8,7 @@
 </head>
 <body>
     <div>
-        <h1>Home page</h1>
-        <p>Hi, {{ name }}</p>
+        {% block content %}{% endblock %}
     </div>
 </body>
 <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
